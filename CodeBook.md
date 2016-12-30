@@ -1,7 +1,5 @@
 # CodeBook
-File: CodeBook.md
-Author: Raul Hermosa
-Date: Dec 19, 2016
+File: CodeBook.md  Author: Raul Hermosa  Date: Dec 19, 2016
 Content: Brief explanation of R script and variables used
 
 # About organization of the R script
@@ -34,5 +32,5 @@ It assigns the vector to column names of data
 # STEP 5: Generating a new data set with means of each variable
 It transforms activity and subject variable into factor to be used as components of the list to group
 It applies aggregate function so the result is directly get. There is 2 new columns "factactivity" and "factsubject" pointing out the value of grouping variables.
-It removes in "avg_data" the last two columns since there is no sense (they were activity and subject) and writes the result to a csv file "avg_data.csv" in working directory.
+It removes in "avg_data" the last two columns since there is no sense (they were activity and subject) and writes the result to a txt file "avg_data.txt" in working directory.
 

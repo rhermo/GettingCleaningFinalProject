@@ -72,6 +72,6 @@ avg_data <- aggregate(data, by=list(factactivity = data$activity, factorsubject=
 col_cut <- ncol(avg_data) -2 
 avg_data <- avg_data[, 1:col_cut]
 
-write.csv(avg_data, "avg_data.csv")
+write.table(avg_data, "avg_data.txt", row.names = FALSE)
 
 # end of Script
